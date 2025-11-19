@@ -16,7 +16,7 @@ export default class Server {
   }
 
   async conectarDBMongo() {
-    if (!db.isConected) await db.conectarAMongoDB();
+    if (!db.isConected) await db.conectarMongoDB();
   }
 
   middlewares() {
