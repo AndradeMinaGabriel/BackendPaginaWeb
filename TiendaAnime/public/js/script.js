@@ -1,5 +1,5 @@
 const listaProximos = document.getElementById('listaProximos');
-const apiURL = 'http://localhost:3000/api/TiendaAnime';
+const apiURL = 'http://localhost:3000/Shop/TiendaAnime';
 const alertaDiv = document.getElementById('alertaPreorden');
 
 async function cargarProximos() {

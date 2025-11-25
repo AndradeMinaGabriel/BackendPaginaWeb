@@ -1,6 +1,6 @@
 const form = document.getElementById('productForm');
 const tabla = document.getElementById('tablaProductos');
-const apiURL = 'http://localhost:3000/api/TiendaAnime';
+const apiURL = 'http://localhost:3000/Shop/TiendaAnime';
 
 let editId = null;
 
